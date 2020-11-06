@@ -1,0 +1,11 @@
+#!/bin/bash
+
+espeak "Time to wake up, the penguins are on the move"
+
+CURRENT_DATE=$(date + "%Y%m%d")
+espeak "The current date is printed below"
+echo "$CURRENT_DATE"
+CURRENT_TIME=$(date + "%H:%M:%S %p")
+espeak "The current time is also printed below"
+echo "$CURRENT_TIME"
+toilet Onward!
